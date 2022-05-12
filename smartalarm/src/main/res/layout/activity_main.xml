@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alarm_jpg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:rotationX="10"
+        android:shadowColor="@color/red"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="@string/app_name1"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:inputType="textPersonName"
+        android:layout_weight="1"
+        android:hint="@string/new_name"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="0dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        tools:ignore="NestedWeights"
+        android:autofillHints="" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:inputType="textPassword"
+        android:layout_weight="1"
+        android:hint="@string/new_passward"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="0dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        tools:ignore="NestedWeights"
+        android:autofillHints="" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="106dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/btn"
+            android:onClick="ac2"
+            tools:ignore="UsingOnClickInXml" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/writer"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/teal_700"
+        android:shadowColor="@color/red"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        android:singleLine="true"
+        >
+        <requestFocus/>
+    </TextView>
+
+
+</LinearLayout>

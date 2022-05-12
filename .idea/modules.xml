@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Smart_Alarm.iml" filepath="$PROJECT_DIR$/.idea/modules/Smart_Alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Smart_Alarm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Smart_Alarm.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartalarm/Smart_Alarm.smartalarm.iml" filepath="$PROJECT_DIR$/.idea/modules/smartalarm/Smart_Alarm.smartalarm.iml" />
+    </modules>
+  </component>
+</project>

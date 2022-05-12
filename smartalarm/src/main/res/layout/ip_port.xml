@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/io_port">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--IP地址 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/app_name1"
+            android:textSize="50sp"/>
+        <EditText
+            android:id="@+id/mEtIP"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textWebEditText"
+            android:hint="@string/c_IP"
+            android:drawableStart="@drawable/ic_tree"
+            android:drawablePadding="20dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:autofillHints="" />
+        <!--端口 -->
+        <EditText
+            android:id="@+id/mEtPort"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/c_IO"
+            android:drawableStart="@drawable/ic_tree"
+            android:drawablePadding="20dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:autofillHints="" />
+        <!--发送 -->
+        <EditText
+            android:id="@+id/mEtOut"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/c_Out"
+            android:drawableStart="@drawable/ic_tree"
+            android:drawablePadding="20dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:autofillHints="" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/mBt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_1"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_2"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_7"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_8"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mBt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_3"
+                    android:onClick="bt3"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_4"
+                    android:onClick="bt4"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_5"
+                    android:onClick="bt5"
+                    tools:ignore="UsingOnClickInXml" />
+                <Button
+                    android:id="@+id/mBt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_6"
+                    android:onClick="bt6"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+        <TextView
+            android:id="@+id/receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

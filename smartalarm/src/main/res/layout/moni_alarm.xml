@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mn_alarm">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:background="@drawable/alarm_jpg"
+        android:orientation="vertical"
+        >
+        <!-- 模拟时钟控件 -->
+        <AnalogClock
+            android:id="@+id/analogClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:dial="@drawable/biao"
+            android:hand_hour="@drawable/shi"
+            android:hand_minute="@drawable/fen"
+
+            />
+        <!-- 数字时钟控件 -->
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format24Hour="HH:mm"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="@color/white"/>
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format24Hour="yyyy年MM月dd日 EEEE"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Smart Alarm</string>
+    <string name="app_name1">智能闹钟</string>
+    <string name="writer">作者：薛舒戈、李欢 西安交通大学-电气工程学院-电子系统设计与实践-2022春</string>
+    <string name="tab1">闹钟</string>
+    <string name="tab2">温度</string>
+    <string name="tab3">秒表</string>
+    <string name="tab4">我的</string>
+    <string name="new_alarm">新建闹钟</string>
+    <string name="new_name">请输入用户名</string>
+    <string name="new_calendar">设置日期</string>
+    <string name="new_gs">请输入闹钟时间(如：\'1时2分\'，应在时钟处输入\'01\'，分钟处输入\'02\'</string>
+    <string name="new_passward">请输入登录密码</string>
+    <string name="digitalclock">DigitalClock</string>
+    <string name="c_IP">请输入服务器IP</string>
+    <string name="e_IP">服务器IP:</string>
+    <string name="c_IO">请输入服务器端口</string>
+    <string name="c_Out">请输入发送数据</string>
+    <string name="bt_1">连接</string>
+    <string name="bt_2">断开</string>
+    <string name="bt_3">LED 1</string>
+    <string name="bt_4">LED 2</string>
+    <string name="bt_5">LED 3</string>
+    <string name="bt_6">LED 4</string>
+    <string name="bt_7">发送</string>
+    <string name="bt_8">清除</string>
+
+</resources>
